@@ -31,8 +31,8 @@ jobs:
       - name: Install tinytex
         uses: r-lib/actions/setup-tinytex@v2 # update
         
-      #- name: Install package dependencies
-      #  uses: r-lib/actions/setup-r-dependencies@v2 # update
+      - name: Install package dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2 # update
         
       #- name: Install remote packages
       #  run: |
